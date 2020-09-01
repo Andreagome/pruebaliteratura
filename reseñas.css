@@ -1,0 +1,76 @@
+.titulo{
+  animation: fondo 10s infinite;
+  position: relative;
+}
+@keyframes fondo{
+from{
+  background-color:#F25757;
+}
+30%{
+  background-color:#F29441;
+}
+60%{
+  background-color:#F27B50;
+}
+to{
+  background-color:#F25757;
+}
+}
+.notiuno{
+  display:grid;
+  grid-template-rows: 300px;
+  background-color: #F2C230;
+  padding: 1%;
+}
+.notidos{
+  display:grid;
+  grid-template-rows: 300px;
+  background-color: white;
+  padding: 1%;
+}
+.notitres{
+  display:grid;
+  grid-template-rows: 300px;
+  background-color: #F2C230;
+
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-size: 50px;
+  font-family: 'Didact Gothic';
+  text-align: center;
+
+}
+h1{
+  font-size: 60px;
+  font-family: 'Love Ya Like A Sister';
+}
+.barra{
+  display:grid;
+  width:60%;
+  margin-left:10%;
+  background-color: #F25757;
+}
+ul{
+  display:grid;
+  grid-auto-rows:60px;
+  grid-template-columns: 25% 25% 25% 25% 25%;
+  padding: 0;
+  }
+li{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+  font-family: 'Didact Gothic';
+  background-color: white;
+}
+a:hover{
+  background-color: black;
+  color:white;
+}
